@@ -13,11 +13,10 @@
 //!варіант 2  let person: [string, number] = ['Max', 21]; ???
 
 
-function getPerson(): (number | string)[] {
-    let person: (number | string)[] = ['Max', 21];
+function getPerson(): [string, number] {
+    let person: [string, number] = ['Max', 21];
     return person;
 }
 
 const personArray = getPerson();
 console.log(personArray);
-

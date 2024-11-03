@@ -33,3 +33,4 @@ function compare<T extends Pick<AllType, 'name' | 'color' | 'position' | 'weight
         weight: bottom.weight,
     };
 }
+
